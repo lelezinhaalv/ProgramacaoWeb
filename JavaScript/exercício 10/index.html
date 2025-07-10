@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Personagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro do Personagem</h1>
+
+    <form id="formPersonagem">
+        <input type="text" id="nome" placeholder="Nome" required>
+        <input type="text" id="class" placeholder="Classe" required>
+        <input type="text" id="força" placeholder="Força" required>
+        <input type="text" id="imagem" placeholder="URL da imagem" required>
+</form>
+<br>
+    <button type="submit">Cadastrar</button>
+<br><br>
+
+    <h2>Personagens Cadastrados</h2>
+    <div id="ListaPersonagens" class="personagens-container"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

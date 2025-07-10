@@ -1,0 +1,21 @@
+body{
+    background-color: beige;
+    color: orange;
+    text-align: center;
+    padding: 10px;
+    font-size: 3vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#botaoAdicionar{
+    background-color: orange;
+    color: beige;
+    font-size: 2vh;
+    border-radius: 10px;
+    font-size: 15;
+    border: none;
+}
+
+#botaoAdicionar:hover{
+    background-color: rgb(176, 171, 171);
+}

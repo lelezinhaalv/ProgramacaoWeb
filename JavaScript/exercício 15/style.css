@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(240, 217, 250);
+    color: blueviolet;
+}
+
+input{
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: none;
+}

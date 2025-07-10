@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: plum;
+    color: black;
+}
+
+button{
+    background-color: rgb(76, 234, 255);
+    color: black;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    font-size: 15;
+    border: none;
+}
+
+button:hover{
+    background-color: plum;
+}
+
+#mensagem{
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-color: blueviolet;
+}
+
+.oculto{
+    display: none;
+}
+
+
+ 

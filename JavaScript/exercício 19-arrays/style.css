@@ -1,0 +1,15 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#quadrado{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(152, 10, 173);
+    margin: 0 auto;
+    border-radius: 10px;
+    transition: background-color 0,1s;
+}
+

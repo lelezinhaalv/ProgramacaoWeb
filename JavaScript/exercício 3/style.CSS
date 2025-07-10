@@ -1,0 +1,45 @@
+body{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-align: center;
+    padding: 20px;
+    background-color: gray;
+}
+
+#caixa{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+button{
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    border-radius: 10px;
+    border-color: black;
+}
+
+button:hover{
+    background-color: grey;
+}
+
+/* o código da animação */
+@keyframes exemple{
+  0% {background-color: black;}
+  25% {background-color:grey;}
+  50% {background-color: black;}
+  100% {background-color: grey;}
+
+}
+
+/* o elemento em que a animação será aplicada */
+body{
+  animation: exemple 2s linear 2s infinite alternate;
+}
+
+

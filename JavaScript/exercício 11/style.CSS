@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: background-color 0.5s ease;
+}
+
+button{
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    font-size: 15;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(176, 171, 171);
+}
+
+#azul{
+    color: rgb(138, 228, 255);
+}
+
+#amarelo{
+    color: rgb(249, 249, 170);
+}
+
+#verde{
+    color: rgb(179, 252, 179);
+}
+
+
+

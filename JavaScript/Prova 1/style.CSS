@@ -1,0 +1,27 @@
+body{
+    padding: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(204, 255, 206);
+    color: black;
+}
+
+button{
+    background-color: green;
+    padding: 5px 30px;
+    height: 5vh;
+    font-size: 2vh;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#mensagem{
+    font-size: 4vh;
+    color: blue;
+}

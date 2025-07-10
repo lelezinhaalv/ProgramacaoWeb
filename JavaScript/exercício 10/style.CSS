@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(248, 219, 88);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+input:hover{
+    background-color: black;
+    color: white;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15;
+    border: none;
+    background-color: orange;
+    color: white;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.personagens-container{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card{
+    background-color: white;
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px black;
+    text-align: left;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card p{
+    margin: 5px 0;
+}

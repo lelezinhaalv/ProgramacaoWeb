@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    background-color: rgb(212, 255, 212);
+    color: rgb(2, 90, 2);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15;
+    border: none;
+    background-color: rgb(39, 156, 74) ;
+    color: black;
+}
+
+button:hover{
+    background-color: rgb(21, 87, 26);
+    color: antiquewhite;
+}

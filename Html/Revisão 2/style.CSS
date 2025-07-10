@@ -1,0 +1,40 @@
+body{
+  display: grid;
+  padding: 10px;
+  text-align: center;
+  background-color: pink;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+header{
+    grid-column: 1 / -1;
+  background-color: rgb(255, 123, 193);
+  color: pink;
+  padding: 10px;
+  font-size: 20px;
+}
+
+main{
+  display: grid;
+  grid-column: 1/4;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 10px;
+}
+
+.box{
+  display: grid;
+  height: 40vh;
+  background-color:rgb(255, 123, 193);
+  color: pink;
+  align-items: center;
+  font-weight: bold;
+}
+
+.footer{
+    grid-column: 1 / -1;
+    background-color: rgb(255, 123, 193);
+    color: pink;
+    padding: 10px;
+    font-size: 20px;
+}

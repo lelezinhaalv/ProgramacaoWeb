@@ -1,0 +1,83 @@
+body {
+    margin: 10px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+    gap: 10px;
+    height: 97vh;
+    background-color: beige;
+  }
+  
+.container {
+    display: grid;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    padding: 10px;
+    height: 80vh;
+    gap: 8px;
+}
+  
+.box1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    background: rgb(113, 194, 252);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.box2{
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
+    background: rgb(113, 194, 252);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.box3{
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    background: rgb(113, 194, 252);
+    padding: 10px;
+    height: 25vh;
+    border-radius: 5px;
+}
+
+.box4{
+    grid-column: 3 / 4;
+    grid-row: 2 / 2;
+    background: rgb(113, 194, 252);
+    padding: 10px;
+    height: 25vh;
+    border-radius: 5px;
+}
+
+.container2{
+    grid-column: 3 / 4;
+    grid-row: 3 / 3;
+    background: rgb(113, 194, 252);
+    padding: 10px;
+    height: 25vh;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    gap: 15px;
+}
+
+.azul1{
+    background: rgb(0, 104, 223);
+    grid-column: 1/ span 2;
+    grid-row: 1;
+}
+.azul2{
+    background: rgb(0, 104, 223);
+    grid-column: 1;
+    grid-row: 2;
+}
+.azul3{
+    background: rgb(0, 104, 223);
+    grid-column: 2;
+    grid-row: 2;
+}
+

@@ -1,0 +1,116 @@
+/*Reset CSS */
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+html, body{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(241, 179, 233);
+}
+
+header {
+  color: black;
+  background-color:  rgb(250, 116, 232);
+  text-align: center;
+  padding: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.perfil{
+  background-color:  rgb(250, 116, 232);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  text-align: center;
+}
+
+.projetos {
+  background-color:  rgb(250, 116, 232);
+  padding: 20px;
+  border-radius: 10px;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr  1fr;
+  display: grid;
+  text-align: center;
+}
+
+.projeto {
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.contato{
+  background-color:  rgb(250, 116, 232);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  text-align: center;
+}
+
+button {
+  background-color: rgb(189, 107, 255);
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(215, 171, 251);
+}  
+
+footer{
+  text-align: center;
+  background-color: rgb(250, 116, 232);
+  padding: 20px;
+}
+
+@media(max-width: 1000px) {
+  mais{
+    grid-template-columns: 1fr;
+  }
+}
+
+/* o código da animação */
+@keyframes exemple{
+  0% {background-color: rgb(189, 107, 255);}
+  25% {background-color: rgb(250, 116, 232);}
+  50% {background-color: rgb(189, 107, 255);}
+  100% {background-color: rgb(250, 116, 232);}
+}
+
+/* o elemento em que a animação será aplicada */
+footer{
+  animation: exemple 1s linear 1s infinite alternate;
+}
+
+/* o elemento em que a animação será aplicada */
+header{
+  animation: exemple 1s linear 1s infinite alternate;
+}
+
+.notificação {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  padding: 15px;
+  border-radius: 10px;
+
+}
+
